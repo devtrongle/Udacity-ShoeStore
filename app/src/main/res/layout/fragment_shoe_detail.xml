@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".views.ShoeDetailFragment">
+
+    <data>
+        <variable
+            name="shoe"
+            type="com.udacity.shoestore.models.Shoe" />
+
+        <variable
+            name="controller"
+            type="com.udacity.shoestore.views.ShoeDetailFragment" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Create_a_new_shoe"
+                android:textColor="@color/colorBlack"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shoe_name"
+                android:drawablePadding="5dp"
+                app:drawableStartCompat="@drawable/ic_shoe_name" />
+
+            <EditText
+                android:text="@={shoe.name}"
+                android:id="@+id/shoe_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/Enter_shoe_name" />
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Company"
+                android:drawablePadding="5dp"
+                app:drawableStartCompat="@drawable/ic_company" />
+
+            <EditText
+                android:text="@={shoe.company}"
+                android:id="@+id/company_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/Enter_company" />
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Shoe_size"
+                android:drawablePadding="5dp"
+                app:drawableStartCompat="@drawable/ic_shoe_size" />
+
+            <EditText
+                android:text="@={`` + shoe.size}"
+                android:id="@+id/shoe_size_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="@string/Enter_shoe_size" />
+
+            <TextView
+                android:textSize="17sp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Description"
+                android:drawablePadding="5dp"
+                app:drawableStartCompat="@drawable/ic_description" />
+
+            <EditText
+                android:text="@={shoe.description}"
+                android:id="@+id/description_edit_text"
+                android:minLines="5"
+                android:gravity="top|start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="@string/Enter_description" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:onClick="@{() -> controller.addShoe()}"
+                android:background="@drawable/background_save_button"
+                android:text="@string/Save"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancel_button"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:onClick="@{() -> controller.back()}"
+                android:background="@drawable/background_canncel_button"
+                android:text="@string/Cancel"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+
+</layout>

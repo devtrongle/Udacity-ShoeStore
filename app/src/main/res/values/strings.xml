@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="FRAGMENT_LOGIN">LOGIN</string>
+    <string name="FRAGMENT_WELCOME">WELCOME</string>
+    <string name="FRAGMENT_INSTRUCTIONS">INSTRUCTIONS</string>
+    <string name="FRAGMENT_SHOE_DETAIL">SHOE DETAIL</string>
+    <string name="FRAGMENT_SHOE_LIST">SHOE LIST</string>
+    <string name="Shoe_store">SHOE Store</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Do_not_have_an_account">Do not have an account?</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Enter_username">Enter username</string>
+    <string name="Enter_password">Enter password</string>
+    <string name="Logout">Logout</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Enter_shoe_size">Enter shoe size</string>
+    <string name="Shoe_size">Shoe size</string>
+    <string name="Company">Company</string>
+    <string name="Enter_company">Enter company</string>
+    <string name="Enter_shoe_name">Enter shoe name</string>
+    <string name="Shoe_name">Shoe name</string>
+    <string name="Create_a_new_shoe">Create a new shoe</string>
+    <string name="Enter_description">Enter description</string>
+    <string name="Description">Description</string>
+    <string name="Add_shoe_success">Add shoe success!</string>
+    <string name="Add_shoe_fail">Add shoe fail!</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/Udacity-ShoeStore/app/src/main/res/drawable/background_login_button.xml" value="0.275" />
+        <entry key="..\:/Projects/Udacity-ShoeStore/app/src/main/res/drawable/background_register_button.xml" value="0.275" />
+        <entry key="..\:/Projects/Udacity-ShoeStore/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Projects/Udacity-ShoeStore/app/src/main/res/layout/fragment_login.xml" value="0.33" />
+        <entry key="..\:/Projects/Udacity-ShoeStore/app/src/main/res/layout/fragment_welcome.xml" value="0.3052586575459598" />
+        <entry key="..\:/Udacity/ShoeStore/app/src/main/res/layout/fragment_instructions.xml" value="0.1" />
+        <entry key="..\:/Udacity/ShoeStore/app/src/main/res/layout/fragment_login.xml" value="0.17074275362318841" />
+        <entry key="..\:/Udacity/ShoeStore/app/src/main/res/layout/fragment_shoe_detail.xml" value="0.1" />
+        <entry key="..\:/Udacity/ShoeStore/app/src/main/res/layout/fragment_shoe_list.xml" value="0.1" />
+        <entry key="..\:/Udacity/ShoeStore/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/background_canncel_button.xml" value="0.1955" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/background_register_button.xml" value="0.186" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/background_save_button.xml" value="0.1955" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_baseline_arrow_right_18.xml" value="0.1955" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_baseline_arrow_right_24.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_baseline_auto_awesome_24.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_company.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_description.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/drawable/ic_shoe_size.xml" value="0.1945" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/activity_login.xml" value="0.1718683197947841" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/activity_test.xml" value="0.1718683197947841" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/fragment_instructions.xml" value="0.1718683197947841" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/fragment_shoe_detail.xml" value="0.1" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/fragment_shoe_list.xml" value="0.1718683197947841" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/fragment_welcome.xml" value="0.1718683197947841" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/layout/item_shoe.xml" value="0.5" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/menu/app_menu.xml" value="0.18" />
+        <entry key="..\:/Udacity/Udacity-ShoeStore/app/src/main/res/menu/menu.xml" value="0.1718683197947841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
