@@ -5,6 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".views.MainActivity">
 
+
+<!--    Use LinearLayoutCompat because the screen is only vertical-->
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:orientation="vertical"
         android:layout_width="match_parent"

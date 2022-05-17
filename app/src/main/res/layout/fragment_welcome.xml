@@ -6,6 +6,10 @@
     tools:context=".views.WelcomeFragment">
 
 
+    <!--    Use ConstraintLayout because the interface has an AppCompatButton
+        at the bottom right corner of the screen and
+         2 TextViews at the Top of the screen -->
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

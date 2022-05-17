@@ -19,6 +19,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+<!--        Use LinearLayoutCompat because the interface is \
+            simply vertical from top to bottom-->
+
         <androidx.appcompat.widget.LinearLayoutCompat
             android:padding="10dp"
             android:orientation="vertical"

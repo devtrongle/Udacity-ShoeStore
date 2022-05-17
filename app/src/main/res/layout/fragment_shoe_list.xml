@@ -6,6 +6,8 @@
     tools:context=".views.ShoeListFragment">
 
 
+<!--    Use ConstraintLayout because there is a FloatingActionButton in the
+        lower right corner of the screen and above the ScrollView-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

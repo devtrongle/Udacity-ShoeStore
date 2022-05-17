@@ -11,6 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+<!--        Use ConstraintLayout because the interface is quite complex
+             consisting of components in the middle of the screen
+              and some at the bottom of the screen-->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

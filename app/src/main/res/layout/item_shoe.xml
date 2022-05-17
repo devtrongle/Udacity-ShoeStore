@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
         <variable
             name="index"
             type="Integer" />
+
         <variable
             name="shoe"
             type="com.udacity.shoestore.models.Shoe" />
     </data>
+
+    <!--    Since the TextViews do not follow a vertical or horizontal,
+            it makes more sense to use ConstraintLayout than Linearlayout-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -124,6 +128,22 @@
             app:layout_constraintStart_toEndOf="@+id/textView13"
             app:layout_constraintTop_toBottomOf="@+id/shoe_size_text_view" />
 
+        <TextView
+            android:id="@+id/no_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2196F3"
+            android:paddingEnd="4dp"
+            android:paddingStart="3dp"
+            android:text="@{`#` + index}"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
@@ -132,22 +152,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
-
-        <TextView
-            android:textSize="13sp"
-            android:id="@+id/no_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#2196F3"
-            android:paddingStart="3dp"
-            android:paddingEnd="4dp"
-            android:text="@{`#` + index}"
-            android:textColor="#FFFFFF"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 </layout>
